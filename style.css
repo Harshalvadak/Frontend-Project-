@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    background-color: #131921;
+}
+
+.global-location {
+    margin-left:24px;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+.global-location>i {
+    display:flex;
+    margin-top: 18px;
+    color: #fff;
+}
+.global-location > h5 {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column; 
+    color: #fff;
+
+}
+
+.nav-search {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 55px;
+    width: 500px;
+    height: 37px;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.search-all {
+    gap: 7px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #555;
+    height: 37px;
+    width: 55px;
+    background-color: #e6e6e6;
+}
+
+.search-all>h4 {
+    margin-top: 9px;
+}
+
+.search-all>i {
+    margin-top: 10px;
+}
+
+.search-field {
+    font-size: medium;
+    color: #111;
+    width: 400px;
+
+}
+
+#it {
+    font-weight: 500;
+    border: 1px solid white;
+    height: 32px;
+    width: 400px;
+}
+
+.search-magnifier {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #febd69;
+    height: 37px;
+    width: 47px;
+}
+
+.search-magnifier>i {
+
+    margin-top: 10px;
+}
+
+.nav-right {
+    width:500px;
+    display:flex;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.hellosignin {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.return{
+    margin-left:80px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.cart
+{ 
+    gap:8px;
+    margin-top: 5px;
+    display: flex;
+    margin-left: 70px;
+    color: #fff;
+}
+.cart i{
+    font-size:30px;
+}
+.cart h4{
+    margin-top:13px;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+#secondheader
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    height:40px;
+    background-color:#232f3e;
+}
+.Shall{
+    margin-left: 10px;
+    gap:5px;
+    width:60px;
+    display:flex;
+    color:#fff;
+    align-items: center;
+}
+.todaydeal
+{
+    margin-top: 10px;
+    color:#fff;
+    margin-left: 10px;
+}
+.CS
+{
+    margin-top: 10px;
+    color:#fff;
+    margin-left: 30px;
+}
+.registry
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color:#fff;
+    margin-left: 30px;
+}
+.gs
+{
+    margin-top: 10px;
+    color:#fff;
+    margin-left: 30px;
+}
+.sell
+{
+    margin-top: 10px;
+    color:#fff;
+    margin-left: 30px; 
+}
+
+.hero-section
+{
+    height: 300px;
+    background-size: cover;
+    background-image: url("hero_image.jpg");
+}
+.content
+{
+    display:flex;
+    justify-content: space-around;
+    height:400px;
+    background-color: #e2e7e6;
+}
+.content .box{
+
+    margin-top:10px;
+    height:400px;
+    width: 21%;
+    background-color: #fff;
+}
+
+
+/* ---------------FIRST BOX ----------------- */
+.box1
+{
+    padding:15px;
+    display:flex;
+    
+    flex-direction: column;
+
+}
+.box1 > img{
+    margin-top:10px;
+    margin-bottom: 7px;
+    height:170px;
+    width:270px;
+}
+.gadgetdown
+{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+}
+.gadgetdown > img{
+    margin-top: 10px;
+    width:28%;
+    height: 90px;
+}
+.downnaming 
+{
+    justify-content: space-evenly;
+    margin-top: 3px;
+    display:flex;
+
+}
+#link{
+    text-decoration:none;
+    margin-top: 15px;
+}
+#promax
+{
+    text-decoration: none;
+}
+
+/* -------------SECOND BOXXX---------- */
+.box2
+{
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+}
+.firstrow
+{
+    
+    display: flex;
+    gap:10px;
+}
+.firstrow > img{
+    
+    margin-top: 10px;
+    height: 115px;
+    width: 125px;
+}
+.headphonesandguitar
+{
+    display:flex;
+    gap:65px;
+    margin-top:4px;
+}
+.box2 >.secondrow
+{
+    gap:10px;
+    display: flex;
+    margin-top:25px;
+    
+}
+.secondrow > img
+{
+    height: 115px;
+    width:125px;
+}
+.keyandmic
+{
+    display:flex;
+    gap:83px;
+    margin-top:4px;
+}
+.box2 > p{
+    text-decoration:none;
+    margin-top: 7px;
+}
+#guitars
+{
+    text-decoration: none;
+}
+
+
+/* ------------------------BOXZ 3--------------------------------- */
+
+.box3
+{
+    display:flex;
+    flex-direction: column;
+    padding:15px ;
+}
+.box3 > img{
+    margin-top:20px;
+    height:300px;
+    width:270px;
+}
+.box3 >p{
+    margin-top: 25px;
+    text-decoration: none;
+}
+#teadybeer
+{
+    text-decoration: none;
+}
+
+/* ---------------------------BOX4---------------------------------------- */
+
+.box4
+{
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    
+}
+.box4 > img{
+    margin-top:20px ;
+    height:300px;
+    width:270px;
+}
+.box4 > p{
+    margin-top:25px;
+}
+#pets
+{
+    text-decoration: none;
+}
